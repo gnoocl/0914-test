@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         commit()
         secondCommit()
+        thirdCommit()
     }
 
     override func didReceiveMemoryWarning() {
@@ -28,6 +29,9 @@ class ViewController: UIViewController {
     
     func secondCommit(){
         print("Secondcommit")
+    }
+    func thirdCommit(){
+        print("thirdCommit")
     }
 }
 
